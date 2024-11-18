@@ -1,0 +1,1 @@
+Get-SmbOpenFile | Select-Object @('ClientUserName','Path','ShareRelativePath','ClientComputerName') | Format-Table -AutoSize | Out-File -FilePath "E:\Company\General\OPEN_FILE_REPOT.txt" -Width 500
